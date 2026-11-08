@@ -542,6 +542,53 @@ img{
 }
 
 /* =========================================================
+   WEDDING PROGRAM
+========================================================= */
+
+.wedding-program{
+    margin-top:28px;
+    padding:22px 18px;
+    border-radius:22px;
+    background:rgba(255,255,255,.065);
+    border:1px solid rgba(255,235,190,.2);
+}
+
+.program-title{
+    font-family:"Amiri",serif;
+    color:var(--gold-light);
+    font-size:1.8rem;
+    margin-bottom:16px;
+}
+
+.program-item{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding:14px 15px;
+    border-radius:15px;
+    background:rgba(0,0,0,.16);
+    border:1px solid rgba(255,235,190,.13);
+}
+
+.program-item + .program-item{
+    margin-top:10px;
+}
+
+.program-event{
+    color:#fff8ed;
+    font-weight:600;
+}
+
+.program-time{
+    flex-shrink:0;
+    color:var(--gold-light);
+    font-weight:800;
+    direction:ltr;
+    font-size:1.1rem;
+}
+
+/* =========================================================
    VENUE
 ========================================================= */
 
@@ -1292,7 +1339,7 @@ footer strong{
 
         <img
             src="cover.jpg"
-            alt="دعوة مروة">
+            alt="دعوة مروى">
 
     </div>
 
@@ -1355,14 +1402,8 @@ footer strong{
     </div>
 
     <p class="welcome">
-
-        بكل الحب والفرح، تتشرف مروة بدعوتكم
-        لمشاركتها هذه المناسبة الجميلة،
-        والاحتفال معنا في هذا اليوم المميز.
-
-        حضوركم معنا يجعل فرحتنا أجمل،
-        وذكرياتنا أكثر دفئًا وجمالًا.
-
+        تتشرف عائلة حمزي بدعوتكم لمشاركتها فرحة زفاف صغيرتها مروى،
+        في أجواء يملؤها الحب والبهجة، لتكتمل فرحتنا بحضوركم ومشاركتكم لنا أجمل لحظات العمر.
     </p>
 
 </div>
@@ -1431,6 +1472,20 @@ footer strong{
 
         </div>
 
+    </div>
+
+    <div class="wedding-program">
+        <h3 class="program-title">برنامج العرس</h3>
+
+        <div class="program-item">
+            <span class="program-event">بداية العرس واستقبال الضيوف</span>
+            <span class="program-time">14:00</span>
+        </div>
+
+        <div class="program-item">
+            <span class="program-event">بداية التصديرة</span>
+            <span class="program-time">15:00</span>
+        </div>
     </div>
 
 </div>
